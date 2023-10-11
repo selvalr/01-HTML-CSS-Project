@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <body>
+        <div class="mobile">Enable Desktop View</div>
+        <div class="container">
+            <div class="banner">
+                <h1>Developers Survey Form</h1>
+                <span><img src="./bg.jpg" alt="" width="100px" /> </span>
+            </div>
+            <form action="">
+                <!-- DEV DETAILS -->
+                <div class="developer-details">
+                    <p class="title">Developer Detail</p>
+                    <div class="dev-detaill flex">
+                        <input type="text" placeholder="Full Name" />
+                        <input type="text" placeholder="Country" />
+                    </div>
+                    <div class="dev-detail2 flex">
+                        <input type="tel" maxlength="10" placeholder="Phone" />
+                        <input type="email" placeholder="Email" />
+                    </div>
+                    <!-- GENDER -->
+                    <div class="gender">
+                        <span>Gender : </span>
+                        <input type="radio" name="gender" id="male" />
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" />
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+
+                <!-- TECH LIST-->
+                <div class="techs">
+                    <p class="title">Technologies</p>
+                    <div class="web-development">
+                        <ul class="techs-list">
+                            <div class="first-col">
+                                <li>
+                                    <input type="checkbox" id="html" />
+                                    <label for="html">HTML</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cSS" />
+                                    <label for="css">CSS</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="javascript" />
+                                    <label for="javascript"> JavaScript</label>
+                                </li>
+                            </div>
+                            <div class="second-col">
+                                <li>
+                                    <input type="checkbox" id="bootstrap">
+                                    <label for="bootstrap">Bootstrap</label>
+                                <li>
+
+                                    <input type="checkbox" id="tailwind" />
+                                    <label for="tailwind">Tailwind</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="sass" />
+                                    <label for="sass">SASS/SCSS</label>
+                                    </i>
+                            </div>
+                            <div class="third-col">
+                                <i>
+                                    <input type="checkbox" id="reactjs">
+                                    <label for="react js">React JS</label>
+                                </i>
+                                <li>
+                                    <input type="checkbox" id="angular">
+                                    <label for="angular">Angular</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="vuejs" />
+                                    <label for="vuejs">Vue Js</label>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+               <h1 class="survey-ques"> SURVEY QUESTIONS</h1>
+                <div class="survey">
+                    <p class="title">Questions</p>
+                    <div class="questions queston-1">
+                        <p>1. Have you used ChatGPT in your projects?</p>
+                        <input type="radio" id="q1-y" value="YES" name="q1" />
+                        <label for="q1-y">Yes</label>
+                        <input type="radio" id="q1-n" value="No" name="q1" />
+                        <label for="q1-n">No</label>
+                    </div>
+                    <div class="questions quesion-2">
+                        <p>2. Can ChatGPT replace human interactions in certain
+                            scenarios?</p>
+                        <input type="radio" id="q2-y" value="YES" name="q2" />
+                        <label for="q2-y">Yes</label>
+                        <input type="radio" id="q2-n" values="No" name="q2" />
+                        <label for="q2-n">No</label>
+                    </div>
+                    <div class="questions queston-3">
+                        <p>3. would you recommend ChatGPT to other developers?</p>
+                        <input type="radio" id="q3-y" values="YES" name="93" />
+                        <label for="q3-y">Yes</label>
+                        <input type="radio" id="q3-n" value="No" name="q3" />
+                        <label for="a3-n"> No</label>
+                    </div>
+                    <div class="questions quesion-4">
+                        <p>4. Have you used other conversational AI tools</p>
+                        <input type="radio" id="q4-y" values="YES" name="q4" />
+                        <label for="q4-y">Yes</label>
+                        <input type="radio" id="q4-n" value="No" name="94" />
+                        <label for="q4-n">No</label>
+                    </div>
+                    <div class="questions queston-5">
+                        <p>4. Rate ChatGPT from average to excellent</p>
+                        <input type="radio" id="average" values="Average" name="q5" />
+                        <label for="average">Average</label>
+                        <input type="radio" id="good" values="Good" name="q5" />
+                        <label for="good">Good</label>
+                        <input type="radio" id="verygood" value="Very Good" name="q5" />
+                        <label for="verygood">Very Good</label>
+                        <input type="radio" id="excellent" value="Excellent" name="q5" />
+                        <label for="excellent">Excellent</label>
+                    </div>
+                </div>
+                <div class="btns">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</body>
+
+</html>

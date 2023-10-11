@@ -1,0 +1,113 @@
+* {
+  margin: 6;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI', sans-serif";
+  list-style-type: none;
+}
+body {
+  background-image: url(./harvest-moon-in-night-sky.jpg);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 660px;
+  border: 1px rgba(128, 128, 128, 0, 452) solid;
+  border-radius: 10px;
+  margin: 30px auto;
+  box-shadow: -10px 10px 20px lightgrey;
+  background-color: white;
+}
+
+.banner {
+  padding: 20px;
+  background-image: url("./bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.banner h1 {
+  width: 48%;
+}
+
+/* FORM STYLING */
+form {
+  padding: 20px 30px;
+}
+Input {
+  padding: 7px;
+}
+.title {
+  font-weight: 560;
+  margin-bottom: 10px;
+}
+.techs-list {
+  display: flex;
+  gap: 80px;
+  justify-content: start;
+}
+.developer-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: 1px rgba(128, 128, 128, 0.301) solid;
+  padding: 15px 8;
+}
+.techs {
+  padding: 20px 8;
+  border-bottom: 1px rgba(128, 128, 128, 0.301) solid;
+}
+.survey-ques {
+  margin-top: 0.7em;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex {
+  width: 100%;
+}
+
+/* SURVEY QUESION */
+.survey .title {
+  margin-top: 15px;
+}
+.questions {
+  margin: 15px 0;
+}
+.questions p {
+  margin: 5px 0;
+}
+.questions input {
+  margin-left: 8px;
+}
+/* BUTTON STYLING */
+.btns {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.btns * {
+  width: 48%;
+  padding: 5px;
+  font-weight: 408;
+}
+.mobile {
+  display: none;
+}
+@media screen and (max-width: 646px) {
+  .container {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    font-weight: bold;
+  }
+}
