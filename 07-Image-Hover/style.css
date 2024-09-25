@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.img-wrapper {
+  display: grid;
+  grid-template-columns: 400px 400px 400px 400px 400px;
+
+  justify-items: stretch;
+}
+
+.img-wrapper img {
+  width: 400px;
+  height: 100vh;
+  transition: all 0.8s ease-in-out;
+
+  object-fit: cover;
+}
+
+.img-wrapper img:hover {
+  width: 500px;
+  transform: translateY(-40px);
+}
