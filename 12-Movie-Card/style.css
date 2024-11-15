@@ -1,0 +1,47 @@
+.card{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 200px;
+    width: 250px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.content{
+    background-color: #bb7777;
+    height: 100%;
+    width: 350px;
+   
+    font-size: 14px;
+    transform: translateX(40px);
+    transition: all 0.5s ease;
+    visibility: hidden;
+     opacity: 0;
+    
+    
+
+}
+span{
+    color: white;
+    padding: 0 10px;
+}
+
+.card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+
+}
